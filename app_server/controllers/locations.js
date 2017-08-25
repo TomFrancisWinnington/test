@@ -59,16 +59,23 @@ module.exports.locationInfo = function(req,res){
 				closed: true
 			}],
 			reviews: [{
-				author: 'barry scott',
+				author: 'Barry Scott ',
 				rating: 5,
 				timestamp: '15 July 2017',
 				reviewText: 'what a great place, truely excellent'
 			},{
 			
-				author: 'mark overmars',
+				author: 'Mark Overmars ',
 				rating: 5,
 				timestamp: '17 July 2017',
 				reviewText: 'bit of alright this!'	
+	
+			},{
+			
+				author: 'Matthew Anthony Gilbert ',
+				rating: 1,
+				timestamp: '17 July 2017',
+				reviewText: 'I wanted the wings crispy yet saucy, but they gave the the sauce on the side, which I didn\'t ask for. The smoked cheesecake wasnt smokey enough! And to top it all off I was asked to leave'	
 	
 			}]
 		}
